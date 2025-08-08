@@ -290,3 +290,4 @@ ccr restart
 
 Diese Anleitung erfolgt **ohne Garantie**.  
 Verwendung auf eigene Verantwortung.
+Diese Anleitung unterliegt der [MIT License](https://github.com/Flo082002/ClaudeCodeRouterFlow/blob/main/LICENSE)
