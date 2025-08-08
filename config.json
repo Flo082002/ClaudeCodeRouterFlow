@@ -1,0 +1,35 @@
+{
+  "LOG": true,
+  "CLAUDE_PATH": "",
+  "HOST": "127.0.0.1",
+  "PORT": 3456,
+  "APIKEY": "",
+  "API_TIMEOUT_MS": "600000",
+  "PROXY_URL": "",
+  "transformers": [
+  { "path": "/home/florian/.claude-code-router/plugins/stripReasoningConflict.cjs" }
+  ],
+  "Providers": [
+    {
+      "name": "openrouter",
+      "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+      "api_key": "sk-or-v1-meinapikey",
+      "models": [
+        "qwen/qwen3-coder",
+        "openai/gpt-5-mini",
+        "openai/gpt-5"
+      ],
+      "transformer": {
+  "use": ["stripReasoningConflict", "openrouter", "stripReasoningConflict"]
+      }
+    }
+  ],
+  "Router": {
+    "default": "openrouter,openai/gpt-5-mini",
+    "background": "openrouter,openai/gpt-5-mini",
+    "think": "openrouter,openai/gpt-5-mini",
+    "longContext": "openrouter,openai/gpt-5-mini",
+    "longContextThreshold": 261000,
+    "webSearch": "openrouter,openai/gpt-5-mini"
+  }
+}
