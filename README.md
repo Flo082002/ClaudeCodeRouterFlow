@@ -240,6 +240,9 @@ Bei den **`Providers`** ergänzen:
 
 ---
 
+Beispiel config:
+https://github.com/Flo082002/ClaudeCodeRouterFlow/blob/main/config.json
+
 ## 4. Bestimmte Tools droppen
 
 Falls gewünscht, bestimmte Tool-Indizes droppen:
