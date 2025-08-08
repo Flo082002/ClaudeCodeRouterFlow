@@ -240,7 +240,7 @@ Bei den **`Providers`** ergänzen:
 
 ---
 
-## 4. Optional: Bestimmte Tools droppen
+## 4. Bestimmte Tools droppen
 
 Falls gewünscht, bestimmte Tool-Indizes droppen:
 
@@ -278,8 +278,8 @@ ccr restart
 ## ⚠️ Achtung
 
 > **Hinweis:**  
-> Dieser Text und die Anleitung wurden vollständig mit ChatGPT erstellt.  
-> Ich selbst habe keine tiefere Ahnung, wie der Code funktioniert – bei mir läuft er jedoch problemlos.
+> Dieser Text die Anleitung und der Code wurden vollständig mit ChatGPT erstellt.  
+> Ich selbst habe keine Ahnung, wie der Code funktioniert – bei mir läuft er aber.
 
 ---
 
