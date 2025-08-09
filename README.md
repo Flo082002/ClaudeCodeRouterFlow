@@ -1,5 +1,5 @@
 # ClaudeCodeRouterFlow
-Hier eine kleine ergänzung zum Patreon video von The Morpheus Tutorials (https://www.patreon.com/posts/work-in-progress-136000549) zum verwenden von Claude Flow mit Claude Router zusammen.
+Hier eine kleine Ergänzung zum Patreon video von The Morpheus Tutorials (https://www.patreon.com/posts/work-in-progress-136000549) zum verwenden von Claude Flow mit Claude Router zusammen.
 
 
 
@@ -245,7 +245,7 @@ https://github.com/Flo082002/ClaudeCodeRouterFlow/blob/main/config.json
 
 ## 4. Bestimmte Tools droppen
 
-Falls gewünscht, bestimmte Tool-Indizes droppen:
+Beestimmte Tool-Indizes droppen:
 
 ```bash
 export CCR_DROP_TOOL_INDICES="32,42"
